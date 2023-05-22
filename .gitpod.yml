@@ -5,7 +5,7 @@ tasks:
       pip install --upgrade pip wheel setuptools
       pip install -r requirements.txt
   - command: |
-      source venv/bin/activate
+      cd /workspace/course-python-4-production && source venv/bin/activate
 
 ports:
   - name: server
